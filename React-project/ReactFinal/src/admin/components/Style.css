@@ -1,0 +1,112 @@
+/* src/components/Navbar.css */
+*{
+    margin: 0;
+    padding:0;
+  }
+  
+  .navbarr {
+      height: 70px;
+      position:fixed;
+      z-index: 100;
+      margin-top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #37474F;
+      padding:3rem;
+      
+    }
+    
+    .navbar-logo a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+    
+    .navbar-links {
+      margin-right: 20%;
+      text-align: center;
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+    
+    .navbar-links li {
+      display: inline;
+    }
+    
+    .navbar-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    
+    .navbar-links a:hover {
+      color: #f0c040;
+    }
+    /* navbar css end*/
+    
+  
+  /* Footer.css */
+.footer {
+    background-color: #72647d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-links,
+  .social-media {
+    margin: 10px 0;
+  }
+  
+  .footer-links a,
+  .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover,
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+
+  /* footer css end*/
+
+
+  /* login css start */
+   .logoback{
+   background-color: #10012d;
+   
+    
+   }
+
+  .logcontainer{
+    
+    margin-top: 200px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow:0 0 10px rgb(251, 118, 3);
+    padding: 40px;
+    background-color: rgba(177, 159, 159, 0.4);
+    width: 300px;
+  }
+
+  .logcontainer input{
+    
+    border-radius: 5px;
+    background-color: white;
+    
+
+}
+  
